@@ -6,7 +6,7 @@ module.exports = {
         .setDescription('print server log'),
         async execute(interaction) { 
               // console.log(interaction); 
-              await interaction.channel.send(`Server name: ${interaction.guild.name}\nTotal members: ${interaction.guild.memberCount}`);
+              await interaction.channel.send(`it's new server`);
               await interaction.reply({ content: 'message sended', ephemeral: true}); 
         },
 };
